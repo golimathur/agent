@@ -1,0 +1,39 @@
+.ms-Grid-col{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+.ms-Grid-row{
+  padding-left: 0;
+  margin-left: 0;
+}
+
+
+
+
+.rep{
+  text-align: center;
+  margin-left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: 'helvetica';
+
+}
+
+.bar{
+  margin-left: '600px';
+  font-family: 'helvetica';
+}
+
+.app{
+  display: 'block';
+  width: '700px';
+  height: '500px'; 
+  float: 'right';
+  margin-top: '-253px';
+  font-family: 'helvetica';
+}
+
+
+
+

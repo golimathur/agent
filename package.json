@@ -1,0 +1,71 @@
+{
+  "name": "random",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@babel/core": "^7.10.5",
+    "@fluentui/react": "^7.123.6",
+    "@mapbox/react-control-label": "^0.1.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "@uifabric/example-data": "^7.0.20",
+    "@uifabric/react-cards": "^0.110.6",
+    "@uifabric/react-hooks": "^7.8.2",
+    "axios": "^0.19.2",
+    "bootstrap": "^4.5.0",
+    "calendar": "^0.1.1",
+    "chart.js": "^2.9.3",
+    "email-validator": "^2.0.4",
+    "formik": "^2.1.5",
+    "fusioncharts": "^3.15.2",
+    "google-map-react": "^2.1.3",
+    "history": "^5.0.0",
+    "mdb": "^0.1.0",
+    "office-ui-fabric-react": "^7.123.10",
+    "react": "^16.13.1",
+    "react-bell-icon": "^1.0.1",
+    "react-bootstrap": "^1.3.0",
+    "react-chartjs-2": "^2.9.0",
+    "react-charts": "^2.0.0-beta.7",
+    "react-chat-window": "^1.2.1",
+    "react-dom": "^16.13.1",
+    "react-donut-chart": "^1.1.8",
+    "react-fusioncharts": "^3.1.2",
+    "react-icons": "^3.10.0",
+    "react-instantsearch": "^6.7.0",
+    "react-minimal-pie-chart": "^8.0.1",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^3.4.3",
+    "react-search": "^2.1.1",
+    "reactjs-file-uploader": "^1.0.8",
+    "typescript": "^3.9.7",
+    "validator": "^13.1.1",
+    "webpack": "^4.44.1",
+    "yup": "^0.29.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.1.5"
+  }
+}

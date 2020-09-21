@@ -1,0 +1,33 @@
+.topheader {
+    background-color:  #0078d4;
+    text-align: center;
+    padding: 20px;
+    height: 10px;
+    font-family: 'helvetica';
+
+  }
+
+  .footer{
+    background-color:  #0078d4;
+    text-align: center;
+    padding: 20px;
+    height: 40px;
+    margin-top: 50px;
+    font-family: 'helvetica';
+  
+    
+  }
+
+  .logot{
+    color: white;
+    font-size: 30px;
+    margin: 10px 0px 10px 20px;
+    font-family: 'helvetica';
+   }
+
+
+
+  
+
+   
+
