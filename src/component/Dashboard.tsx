@@ -4,25 +4,34 @@ import Navigation from "../uicomponent/Navigation";
 import Chat from "../uicomponent/Chat";
 import Header from "../uicomponent/Header";
 import Footer from "../uicomponent/Footer";
-import Button from "../uicomponent/Button";
 import Search from "../uicomponent/Search";
+import CardSection from "../CardSection";
+import OperationsTables from "../OperationsTables";
 
 const Dashboard = () => {
   return (
-    <div>
-      <Button />
-      <div style={{ float: "right", marginTop: -20, marginRight: 10 }}>
-        <Search />
+    <div className="ms-Grid" dir="ltr">
+      <div className="ms-Grid-row">
+        <div className="ms-Grid-col ms-sm-1 ms-xl1">
+          <Header />
+
+          <Navigation />
+        </div>
+        <div className="topheader">
+          <div style={{ float: "right", marginTop: -50, marginRight: 10 }}>
+            <Search />
+          </div>
+        </div>
+        <div className="ms-Grid-col ms-sm11 ms-xl11 main-element">
+          <div className="ms-Grid-row">
+            <CardSection />
+            <OperationsTables />
+          </div>
+        </div>
       </div>
-      <Header />
-      <p className="rep">Tasks</p>
-      <div style={{ marginLeft: 8, marginTop: "-62px" }}>
-        <Navigation />
-      </div>
-      <div style={{ marginTop: 120 }}>
-        <Footer />
-      </div>
+      <div></div>
       <Chat />
+      <Footer />
     </div>
   );
 };
