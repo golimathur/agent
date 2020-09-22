@@ -16,14 +16,27 @@ import LoginForm from "./login/LoginForm";
 import Account from "./signup/Account";
 import { Suspense } from "react";
 import { Fabric } from "@fluentui/react";
+import Dashboard from "./component/Dashboard";
 
 ReactDOM.render(
   <Fabric>
     <Router history={history()}>
       <Switch>
       
-       {/* <Route exact path="/" render={() => <App />} /> */}
+        {/* <Route exact path="/" render={() => <App />} />  */}
        <Route exact path="/" render={() => <Validate />} />
+
+
+       <Route
+          exact
+          path="/dashboard"
+          activeClassName="is-active"
+          render={() => (
+            <Header>
+              <Dashboard />
+            </Header>
+          )}
+        />
 
         <Route
           exact
